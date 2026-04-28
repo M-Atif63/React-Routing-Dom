@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Components/pages/Home';
+import React from 'react'
+import './App.css'
+import Routing from './Components/route/Routing'
 
 function App() {
   return (
-    <div>
-    <Home/>
-    </div>
-  );
+    <div><Routing/></div>
+  )
 }
 
-export default App;
+export default App
